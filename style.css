@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 4px #fa0000a6;
+}
+
+
+body {
+   background-image: url(/pictures/ramadan.jpg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.start {
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 5px #fa0000a6;
+}
+
+.start:hover {
+    transform: skew(-20deg);
+   
+}
+
+header {
+    font-size: 36px;
+}
+
+.background {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 180px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.red-highlight {
+    background-color: #f93a3a;
+    
+}
+
+.red-highlight:hover {
+    background-color: #fa0000a6;
+    border-radius: 5%;
+}
+
+
+td, th {
+    border: 1px solid #c06060a6;
+    padding: 25px;
+    background-color: #00000094;
+    border-radius: 10px;
+}
+
+
+tr :hover {
+
+    background-color: #f8010144;
+    transform: rotate(-10deg) ;
+    cursor: pointer;
+    transition: all 1s;    
+   
+}
+
+
+
